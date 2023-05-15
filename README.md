@@ -1,2 +1,2 @@
 # myleetcode
-I will upload every question which I will solved in leetcode
+I will upload every question which I will solve in leetcode
