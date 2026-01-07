@@ -4,7 +4,7 @@ class Solution:
         numSet = set(nums)
         longest = 0 # track the longest
 
-        for elem in nums: # for every elem in nums
+        for elem in numSet: # for every elem in nums
             if (elem - 1) not in numSet: # if it dont have any preceeding value
                 largest = 0 
                 while (elem + largest) in numSet: # than check how many sequence is after that
